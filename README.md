@@ -5,4 +5,4 @@ You could call it bootstrap-like but way more flexible and leaner.
 
 I developed it for my own needs starting 2020 with a view to keep the classes simple, lean and stackable, working together rather than one class per desired output or style.
 
-It is built with senior frontend developers in mind, that already have a deep understanding of CSS and HTML markup.
+It is built with experienced frontend developers in mind, that already have a deep understanding of CSS and HTML markup.
