@@ -1,0 +1,295 @@
+/* universal */
+
+
+ html {scroll-behavior: smooth;}.flex{display: flex}.cc{align-items: center;justify-content: center}.a-fs{align-items: flex-start}.a-fe{align-items: flex-end}.a-sa{align-items: center}.a-sb{align-items: space-between}.j-fe{justify-content: flex-end}.j-sa{justify-content: space-around}.j-sb{justify-content: space-between}.a-c{align-items: center}.j-c{justify-content: center}.j-fs{justify-content: flex-start}.fww{flex-wrap: wrap}.col{flex-direction: column}.mt75{margin-top: 75px!important}.mt150{margin-top: 150px!important}.mb75{margin-bottom: 75px!important}.mt25{margin-top: 25px!important}.mb25{margin-bottom: 25px!important}.mt50{margin-top: 50px!important}.mb50{margin-bottom: 50px!important}.mtb75{margin-top: 75px!important;margin-bottom: 75px!important}.mtb25{margin-top: 25px!important;margin-bottom: 25px!important}.mtb50{margin-top: 50px!important;margin-bottom: 50px!important}.mt125{margin-top: 125px!important}.bg-fixed{background-attachment: fixed}.pt75{padding-top: 75px!important}.pt150{padding-top: 150px!important}.pb75{padding-bottom: 75px!important}.pt25{padding-top: 25px!important}.pb25{padding-bottom: 25px!important}.pt50{padding-top: 50px!important}.pb50{padding-bottom: 50px!important}.ptb75{padding-top: 75px!important;padding-bottom: 75px!important}.ptb25{padding-top: 25px!important;padding-bottom: 25px!important}.ptb50{padding-top: 50px!important;padding-bottom: 50px!important}.mt100vh{margin-top:100vh!important;}.ptb15{padding-top:15px!important;padding-bottom:15px!important;}.opacity-15{opacity: 0.15}.opacity-20{opacity: 0.2}.opacity-25{opacity: 0.25}.opacity-30{opacity: 0.3}.opacity-35{opacity: 0.35}.opacity-40{opacity: 0.4}.opacity-50{opacity: 0.50}.opacity-75{opacity: 0.75}.opacity-85{opacity: 0.85}.opacity-90{opacity:0.9;}.opacity-80{opacity:0.8;}.opacity5{opacity:0.05};.pt100{padding-top:100px!important;}
+
+zindex-2 {
+    z-index:2;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5,h6,h7 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  margin: 0;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 1.9em;
+}
+
+.dbl-hamburger-icon {
+  position: fixed;
+  z-index: 150;
+  top: 45px;
+  right: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+form input, form textarea {
+  margin: 20px 0;
+  background: none;
+  background-color: transparent;
+  border: none;
+  text-indent: 5.25px;
+  /* font: 400 16px Poppins; */
+  /* border-bottom: 1px solid white; */
+}
+
+form input {
+  height: 45px;
+}
+
+form input:focus, form textarea:focus {
+  outline: none;
+}
+
+button {
+  background: transparent;
+  padding: 10px 20px;
+  cursor:pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+.m-dbl-hamburger-icon {
+  position: fixed;
+  z-index: 150;
+  top: 35px;
+  right: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dbl-hamburger-icon span, .m-dbl-hamburger-icon span {
+  height: 3px;
+  background: white;
+  width: 28px;
+  margin: 4.5px 0;
+}
+
+.home-top-c {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+}
+
+.tac {
+  text-align: center;
+}
+
+.wh-max {
+  height: 100%!important;
+  width: 100%!important;
+}
+
+.vw75 {
+  width: 75vw;
+}
+
+.rel {
+  position: relative;
+}
+
+.abs {
+  position: absolute;
+}
+
+.white {
+  fill: white;
+  color: white;
+}
+
+.white-bg {
+  background-color: white;
+}
+
+.black {
+  color: black;
+  fill: black;
+}
+
+.black-bg {
+  background-color: black;
+}
+
+.opacity-filter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+.interline {
+  width: 100px;
+  min-height: 4px;
+  max-height: 4px;
+  height: 4px;
+  margin:4px 0;
+}
+
+
+
+
+/* Desktop (screen width >816px*/
+
+@media screen and (min-width:816px) {
+/*start of laptops & desktop media query *
+************************************/
+
+body {
+    font-size:18px;
+    line-height:1.85;
+}
+
+.section {
+  width: 100vw;
+  height: 1100px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-sq {
+    width:100vw;
+    height:100vw;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p {
+    line-height:1.85;
+    width:75%;
+    margin:3%;
+    max-width:700px;
+}
+
+.hd {
+    display:none;
+}
+
+.sub-section {
+    width:55vw;
+    height:40vh;
+    padding:40px;
+}
+
+.section40vw {
+    width:40vw;
+}.section50vw {
+    width:50vw;
+}
+
+.pt100 {
+    padding-top:100px!important;
+}
+
+
+/*******************************
+end of desktop media query*/
+}
+/*******************************
+*******************************
+*******************************
+*******************************
+*******************************
+*******************************
+*******************************
+*******************************
+*******************************
+*******************************
+*******************************
+*******************************
+*******************************
+*******************************
+*******************************
+*******************************
+/* Mobile (screen width <815px) */
+
+
+
+@media screen and (max-width:815px) {
+/*start of media mobile media query *
+************************************/
+
+ body {
+  font-size: 16px;
+ }
+
+.section {
+  width: 100vw;
+  height: 850px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-75 {
+  width: 100vw;
+  height: 638px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-sq {
+  width: 100vw;
+  height: 100vw;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.p {
+  line-height: 1.6;
+  margin: 6vw;
+}
+
+.hm {
+    display:none;
+}
+
+/* Safari 10.1+ */
+
+@media not all and (min-resolution:.001dpcm) { @media {
+
+    .bg-fixed {background-attachment:initial!important;background-size:initial!important;}
+}}
+
+    
+
+    
+    
+    
+    
+/*******************************
+end of mobile media query******/
+}
